@@ -1,0 +1,6 @@
+.containerView {
+  display: flex;
+  justify-content: stretch;
+  height: 100%;
+  width: 100%;
+}

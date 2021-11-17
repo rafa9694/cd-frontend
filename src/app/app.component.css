@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 20% 1fr 20%;
+  grid-template-areas:
+    "header header header"
+    "view view view"
+    "footer footer footer";
+}
+
+app-header {
+  grid-area: header;
+}
+
+app-view {
+  grid-area: view;
+}
+
+app-footer {
+  grid-area: footer;
+}
